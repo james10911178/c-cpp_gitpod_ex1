@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main(){
-    int a, b;
+    float a;
     printf("A=> ");
-    scanf("%d", &a);
-    printf("B=> ");
-    scanf("%d", &b);
-    printf("A+B=%d\n", a+b);
+    scanf("%f", &a);
+    printf("周長=%f\n", a*2*3.14);
+    printf("面積=%f\n", a*a*3.14);
     return 0;
 }
