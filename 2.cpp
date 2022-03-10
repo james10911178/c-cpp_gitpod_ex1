@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){   
     int myAge=16;
-
+    
     int Myweight=100;
 
     int Myheight=176;
