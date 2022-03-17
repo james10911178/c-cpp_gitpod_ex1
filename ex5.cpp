@@ -7,11 +7,6 @@ int main(){
 x++
 --x
 x--
-
-x = 16 
-x >> 1
-x >> 2
-x << 1
 */
 
     printf("a =%d \n",a);
