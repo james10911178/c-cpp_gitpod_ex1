@@ -6,4 +6,4 @@ git push
 
 g++ ex3.cpp
 
-gcc ex3.c 
+gcc ex3.c 9
