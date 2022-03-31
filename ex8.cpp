@@ -8,7 +8,7 @@ int main()
 
     printf(" please unput a score \n");
     scanf("%d",&a);
-    if( a > 89 ){
+    if( 89 < a && a < 101 ){
         printf(" A \n");
     }else if( 79 < a && a < 90 ){
         printf(" B \n ");
