@@ -4,14 +4,20 @@ using namespace std;
 
 int main()
 {
-    int a,i;
+    int a;
 
-    printf(" please unput a numder \n");
+    printf(" please unput a score \n");
     scanf("%d",&a);
-    if(0 > a > 60){
-        printf(" 不及格 \n");
+    if( a > 89 ){
+        printf(" A \n");
+    }else if( 79 < a && a < 90 ){
+        printf(" B \n ");
+    }else if( 69 < a && a < 80 ){
+        printf(" C \n");
+    }else if( 59 < a && a < 70 ){
+        printf(" D \n");
     }else
-    printf(" 及格 \n");
+    printf(" E \n");
 
     return 0;
 }
