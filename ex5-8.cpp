@@ -6,7 +6,7 @@ int main()
 {
     int a;
 
-    printf(" please unput a score \n");
+    printf(" 輸入分數 \n");
     scanf("%d",&a);
     if( 89 < a && a < 101 ){
         printf(" A \n");

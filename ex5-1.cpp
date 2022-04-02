@@ -6,9 +6,9 @@ int main(){
     printf("B=> ");
     scanf("%d", &b);
     if( a > b){
-        printf(" A \n");
+        printf(" 最大值是A \n");
     }else
-    printf(" B \n");
+    printf(" 最大值是B \n");
 
 return 0;
 }

@@ -13,7 +13,7 @@ int main(){
         printf(" A \n");
     }else if( b > a && b > c && b > d){
     printf(" B \n");
-    }else if( c > a && c > b && a > d){
+    }else if( c > a && c > b && c > d){
     printf(" C \n");
     }else
     printf(" D  \n");
