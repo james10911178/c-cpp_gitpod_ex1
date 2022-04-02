@@ -1,35 +1,23 @@
-#include <iostream>
+#include <stdio.h>
+int main(){
+    int a ,b;
  
-int day(int &year, int &month);
- 
-int main()
-{
-    int year{};
-    int month{};
-    std::cout << "请输入年和月(空格隔开):";
-    std::cin >> year >> month; 
-    std::cout << "该月天数:" << day(year, month) << '\n'; 
-    return 0;
-}
- 
-int day(int &year, int &month)
-{
-    int t{};
-     
-    if(month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
-        t = 31;
+    printf( "輸入年分 \n");
+    scanf( "%d",&a);
+    printf("輸入月分 \n");
+    scanf("%d",&b);
+    if(b == 1 || b == 3 || b == 5 || b == 7 || b == 8 || b == 10 || b == 12){
+        printf("31");
          
-    else if(month == 2)
-    {
-        if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
-            t = 29;
+    }else if(b == 2)
+    
+        if((a % 4 == 0 && a % 100 != 0) || (a % 400 == 0)){
+            printf("29");
              
-        else
-            t = 28;
-    }
-     
+        }else
+            printf("28");
     else
-        t = 30;
+        printf("30");
          
-    return t;
+    return 0;
 }
