@@ -22,7 +22,7 @@ int main()
     cout << endl;
     cout <<  "Hello World";
 
-    return 0
+    return 0;
 }
 
 
