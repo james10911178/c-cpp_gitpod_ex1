@@ -23,7 +23,7 @@ ttime convert(ttime t){
 int main() {
     ttime t1, t;
    
-    t1.hr = 14
+    t1.hr = 14;
     t1.min = 20;
     t1 = convert(t1);
     printf(" correct time expression  =  %d hr %d min \n",t1.hr,t1.min);
